@@ -1,0 +1,15 @@
+grpc:
+  server:
+    addr: "localhost:40000"
+    protocol: "tcp"
+mysql:
+  dsn: "root:root@tcp(localhost:13316)/webook"
+
+etcd:
+  addrs:
+    - "localhost:13317"
+redis:
+  addr: "localhost:13322"
+kafka:
+  addrs:
+    - "localhost:9094"
